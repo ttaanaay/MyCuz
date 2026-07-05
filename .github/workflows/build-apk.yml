@@ -52,7 +52,6 @@ jobs:
         run: |
           python --version
           buildozer --version
-          pip show python-for-android
 
       - name: Build APK
         env:
