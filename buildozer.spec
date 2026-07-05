@@ -26,7 +26,7 @@ source.exclude_patterns = *.pyc,*.pyo
 # Requirements
 # ---------------------------------
 
-requirements = python3,kivy==2.3.0,kivymd==1.2.0,pillow,plyer
+requirements = python3==3.12.8,kivy==2.3.0,kivymd==1.2.0,pillow,plyer
 
 # ---------------------------------
 # Screen
