@@ -26,14 +26,13 @@ source.exclude_patterns = *.pyc,*.pyo
 # Requirements
 # ---------------------------------
 
-requirements = python3==3.12.8,kivy==2.3.0,kivymd==1.2.0,pillow,plyer
+requirements = python3,kivy==2.3.0,kivymd==1.2.0,pillow,plyer
 
 # ---------------------------------
 # Screen
 # ---------------------------------
 
 orientation = portrait
-
 fullscreen = 0
 
 # ---------------------------------
@@ -41,13 +40,18 @@ fullscreen = 0
 # ---------------------------------
 
 android.api = 33
+android.sdk = 33
 android.minapi = 21
+
+android.ndk = 27b
 
 android.accept_sdk_license = True
 
 android.archs = arm64-v8a
 
 android.permissions = INTERNET
+
+android.enable_androidx = True
 
 # ---------------------------------
 # Bootstrap
